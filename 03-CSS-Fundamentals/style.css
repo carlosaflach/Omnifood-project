@@ -96,10 +96,32 @@ li:nth-child(even) {
 }
 
 /* não funciona porque p não é o primeiro filho do article. */
+
 /* article p:first-child {
   color: red;
 } */
 
-article p:last-child {
-  color: red;
+/* Styling links */
+
+a:link {
+  color:#1098ad;
+  text-decoration: none;
 }
+
+a:visited {
+  /* color: #777 */
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orange;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* LHVA */
