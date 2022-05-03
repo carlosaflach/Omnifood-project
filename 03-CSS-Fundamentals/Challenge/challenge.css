@@ -6,6 +6,7 @@
 body {
   font-family: sans-serif;
   line-height: 1.4;
+  margin-top: 50px;
 }
 
 
@@ -23,6 +24,8 @@ body {
   font-size: 20px;
   background-color: #f7f7ff;
   padding: 15px;
+
+  position: relative;
 }
 
 /* PRODUCT INFORMATION */
@@ -88,4 +91,48 @@ body {
   color: #000;
 }
 
+
+.product-title::before {
+  content: "SALE";
+  background-color: #ec0808;
+  color: #fff;
+  font-size: 12px;
+  padding: 7px 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  position: absolute;
+  top: -20px;
+  left: -37px;
+}
+
+.color {
+  background-color: #000;
+  height: 20px;
+  width: 20px;
+
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: #3030e1;
+}
+
+.color-red {
+  background-color: #ec0808;
+}
+
+.color-yellow {
+  background-color: #f3f331;
+}
+
+.color-green {
+  background-color: #34dd34;
+}
+
+.color-brown {
+  background-color: rgb(123, 34, 34);
+}
 
