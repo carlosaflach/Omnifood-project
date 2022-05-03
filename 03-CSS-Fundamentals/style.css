@@ -26,7 +26,7 @@ body {
   padding: 20px 40px;
   margin-bottom: 40px;
 
-  height: 80px;
+  /* height: 80px; */
 }
 
 nav {
@@ -50,6 +50,8 @@ aside {
   width: 500px;
 }
 
+
+/* SMALLER ELEMENTS */
 h1, h2, h3 {
   color: #1098ad;
 }
@@ -81,6 +83,7 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
+  /* display: inline; */
 }
 
 ul, ol {
@@ -91,6 +94,7 @@ ul, ol {
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /* display: inline; */
 }
 
 li:last-child {
@@ -175,7 +179,29 @@ a:active {
   font-style: italic;
 }
 
+nav a:link {
+  /* background-color: orange;
+  margin: 20px;
+  padding: 20px;
+
+  display: block; */
+
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
 /* LHVA */
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
 
 /* Resolving conflicts */
 
@@ -199,7 +225,3 @@ footer p {
   font-size: 18px;
 } */
 
-.post-img {
-  width: 100%;
-  height: auto;
-}
