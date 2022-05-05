@@ -162,3 +162,12 @@ body {
   background-color: rgb(123, 34, 34);
 }
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container {
+  /* background-color: red; */
+}
