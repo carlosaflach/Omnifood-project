@@ -44,15 +44,32 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        gap: 30px;
+        /* gap: 30px; */
       }
 
       /* Aligning flex items */
+      .el {
+        /*
+        Defaults
 
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto; */
+
+        /* flex-basis: 200px; */
+        /* flex-shrink: 0; */
+        
+        /* Shorthand property */
+        /* flex: 0 0 200px; first é o flex grow, second flex shrink e thrid é o flex basis. */
+        flex-grow: 1;
+
+        /* flex: 1; */
+      }
 
       .el--1 {
         align-self: flex-start;
         /* order: 2; */
+        /* flex-grow: 3; */
       }
 
       .el--5 {
@@ -72,9 +89,9 @@
       <div class="el el--3">CSS</div>
       <div class="el el--4">are</div>
       <div class="el el--5">amazing</div>
-      <div class="el el--6">languages</div>
+      <!-- <div class="el el--6">languages</div>
       <div class="el el--7">to</div>
-      <div class="el el--8">learn</div>
+      <div class="el el--8">learn</div> -->
     </div>
   </body>
 </html>
