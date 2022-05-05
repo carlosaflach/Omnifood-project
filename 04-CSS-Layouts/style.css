@@ -9,8 +9,6 @@
 body {
   color: #444;
   font-family: sans-serif;
-
-  border-top: 10px solid #1098ad;
   position: relative;
 }
 
@@ -27,8 +25,10 @@ body {
   padding-left: 40px;
   padding-right: 40px; */
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* height: 80px; */
+
+  border-top: 10px solid #1098ad;
 }
 
 nav {
@@ -37,7 +37,7 @@ nav {
 }
 
 article {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 .post-header {
@@ -359,7 +359,8 @@ footer {
   font-style: italic;
 }
 
-.row {
+/* FlexBox Layout */
+/* .row {
   display: flex;
   gap: 75px;
   margin-bottom: 60px;
@@ -374,4 +375,30 @@ article {
 aside {
   flex-basis: 300px;
   flex: 0 0 300px;
+} */
+
+/* CSS GRID LAYOUT */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: start;
+}
+
+.main-header {
+  grid-column: 1 / -1;
+}
+
+article {
+
+}
+
+aside{
+
+}
+
+footer {
+  grid-column: 1 / -1;
 }
