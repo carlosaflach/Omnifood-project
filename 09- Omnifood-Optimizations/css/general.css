@@ -70,6 +70,8 @@ html {
 
   /* Only works if there is nothing absolutely posisioned in relation to body */
   overflow-x: hidden;
+  /* Does NOT work on Safari */
+  /* scroll-behavior: smooth; */
 }
 
 body {
