@@ -12,6 +12,8 @@ In this project I could go through all the 7 steps to a great website, and apply
  
 - CSS Fundamentals with CSS Grid and Flexbox.
 
+- JavaScript
+
 - Web Design Fundamentals and Rules.
 
 - Responsive Web Design.
