@@ -22,7 +22,7 @@ In this project I could go through all the 7 steps to a great website, and apply
 
 - [Squoosh](https://squoosh.app/) for image resizing and compacting.
 
-### Get To Know The Projec
+### Get To Know The Project
 
 - Live Site URL: [Omnifood Project](https://omnifoodcompay.netlify.app/)
 
