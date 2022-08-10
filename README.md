@@ -24,7 +24,7 @@ In this project I could go through all the 7 steps to a great website, and apply
 
 ### Get To Know The Project
 
-- Live Site URL: [Omnifood Project](https://omnifoodcompay.netlify.app/)
+- App: [Omnifood Project](https://omnifoodcompay.netlify.app/)
 
 ## Created By:
 
